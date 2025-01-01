@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl; /* Right to Left for Hebrew */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333; /* Dark black background for the header */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: black; /* Black background for the navigation bar */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px; /* Increased margin between items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px; /* Larger font size */
+    font-weight: bold;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Darker hover effect */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.dog-breeds-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.dog-breeds-table th, .dog-breeds-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.dog-breeds-table th {
+    background-color: #333;
+    color: white;
+}
+
+.dog-breeds-table td {
+    background-color: #f9f9f9;
+}
+
+.dog-breed-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
