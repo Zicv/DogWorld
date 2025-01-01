@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>צור קשר</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<header>
+  <h1>ברוכים הבאים ל- עולם כלבים</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">דף הבית</a></li>
+      <li><a href="breeds.html">גזעי כלבים</a></li>
+      <li><a href="foods.html">מזון לכלבים</a></li>
+      <li><a href="toys.html">צעצועים לכלבים</a></li>
+      <li><a href="contact.html">צור קשר</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <form action="submit_form.php" method="POST">
+    <label for="first-name">שם פרטי:</label>
+    <input type="text" id="first-name" name="first-name" required><br><br>
+
+    <label for="last-name">שם משפחה:</label>
+    <input type="text" id="last-name" name="last-name" required><br><br>
+
+    <label for="email">אימייל:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">טלפון:</label>
+    <input type="tel" id="phone" name="phone"><br><br>
+
+    <label for="message">מה ברצונך לשאול?</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+    <button type="submit">שלח</button>
+  </form>
+</main>
+<footer>
+  <p>&copy; 2025 עולם כלבים</p>
+</footer>
+</body>
+</html>
